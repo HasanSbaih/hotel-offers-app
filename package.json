@@ -4,9 +4,7 @@
   "license": "MIT",
   "angular-cli": {},
   "engines": {
-    "node": "6.10.0",
-   "npm":  "v3.10.10"
-
+    "node": "6.10.0"
   },
   "scripts": {
     "ng": "ng",
