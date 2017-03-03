@@ -27,7 +27,7 @@ export class AppComponent {
 });
  
  constructor(private http:Http,public fb: FormBuilder){
-    this.http.get('https://hoteloffers.herokuapp.com/search')
+    this.http.get('https://hoteloffers.herokuapp.com/search/')
       .map(response => response.json().offers)
       .subscribe(res => this.spaceScreens=res)
       
@@ -39,7 +39,7 @@ export class AppComponent {
   let options = new RequestOptions({ headers: headers});
 
 
-   this.http.post('https://hoteloffers.herokuapp.com/search',body,options)
+   this.http.post('https://hoteloffers.herokuapp.com/search/',body,options)
       .map(response => response.json().offers)
       .subscribe(res => this.spaceScreens=res)
 }
