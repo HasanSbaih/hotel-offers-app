@@ -2,13 +2,16 @@
   "name": "hotel-offers",
   "version": "0.0.0",
   "license": "MIT",
+    "angular-cli": {},
   "scripts": {
-    "ng": "ng",
     "start": "ng serve",
+    "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
-    "pree2e": "webdriver-manager update --standalone false --gecko false",
+    "pree2e": "webdriver-manager update",
     "e2e": "protractor"
+
   },
+    "private": true,
   "dependencies": {
     "@angular/common": "^2.3.1",
     "@angular/compiler": "^2.3.1",
