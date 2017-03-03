@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "angular-cli": {},
+  "engines": {
+    "npm":"3.10.10"
+  },
   "scripts": {
     "preinstall": "rm -rf node_modules",
     "ng": "ng",
