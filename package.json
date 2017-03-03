@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "angular-cli": {},
+  "engines": {
+    "node": "6.9.4"
+  },
   "scripts": {
     "postinstall" : "./node_modules/bower/bin/bower install",
     "ng": "ng",
