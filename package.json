@@ -7,7 +7,6 @@
     "npm":"3.10.10"
   },
   "scripts": {
-    "preinstall": "rm -rf node_modules",
     "ng": "ng",
     "start": "node server.js",
     "lint": "tslint \"src/**/*.ts\"",
