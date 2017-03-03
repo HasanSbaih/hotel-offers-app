@@ -64,9 +64,13 @@
 
 
     <md-card flex layout-padding *ngFor="let spaceScreen of spaceScreens; let i = index">
-        <img md-card-image src="{{ spaceScreen.imageUrl }}">  
+        <img md-card-image src="{{ spaceScreen.imageUrl }}" style="height: 100px; width: 100px;">  
         <md-card-content>
           <p> {{ spaceScreen.description }}</p>
+          <span>in {{ spaceScreen.name }}</span>
+          <span>rate : {{ spaceScreen.averageRate }}</span>
+          <span>City : {{ spaceScreen.cityName }}</span>
+          <span>car package : {{ spaceScreen.carPackage }}</span>
         </md-card-content>
         
       </md-card>
